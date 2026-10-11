@@ -1,0 +1,17 @@
+{
+  "name": "friend-zone-bot",
+  "version": "1.0.0",
+  "description": "Telegram friendship matching bot with likes, mutual matches, reports and blocks",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "grammy": "^1.35.0",
+    "pg": "^8.13.1"
+  }
+}
